@@ -1,5 +1,7 @@
 const App = () => {
-  return <h1>Hello, world</h1>
+  return (
+    <button type="button" title="Start">Start</button>
+  )
 }
 
 export default App
