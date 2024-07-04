@@ -6,6 +6,6 @@ This application make a test velocity
 - [x] Add eslint
 - [ ] Add funcionalities
 - [x] Add font
-- [ ] Add styles
+- [x] Add styles
 - [ ] Dockering this application
 - [ ] Feedback errors
