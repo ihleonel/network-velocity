@@ -1,6 +1,11 @@
+import '@fontsource-variable/quicksand';
+
 const App = () => {
   return (
-    <button type="button" title="Start">Start</button>
+    <>
+      <h1>Velocity Test</h1>
+      <button type="button" title="Start">Start</button>
+    </>
   )
 }
 

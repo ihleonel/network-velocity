@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Quicksand Variable', sans-serif;
   background: #3e3e3e;
   color: white;
   display: flex;
