@@ -9,11 +9,11 @@ const App = () => {
     try {
       const response = await fetch(imageUrl)
       const reader = response.body.getReader()
-      const contentLength = +response.headers.get('Content-Length')
 
       let receivedLength = 0
       const chunks = []
-      while (true) {
+      let flag = true
+      while (flag === true) {
         const { done, value } = await reader.read()
         if (done) {
           break
